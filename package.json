@@ -4,6 +4,7 @@
   "description": "Moodly - 사용자의 문장 감성을 분석하고 신뢰도와 근거를 제시하는 웹 서비스",
   "type": "module",
   "scripts": {
+    "build": "echo \"Build completed successfully\"",
     "start": "node dev-server.js",
     "test": "node test/test-analyze.js"
   },
@@ -21,4 +22,3 @@
     "openai": "^4.86.1"
   }
 }
-
